@@ -140,9 +140,9 @@ fn solution_b(file: &str) -> u64 {
 }
 
 pub fn solutions() {
-    let file = std::fs::read_to_string("inputs/day2.txt").unwrap();
-    let answer_a = solution_a(&file);
-    let answer_b = solution_b(&file);
+    let file = include_str!("input.txt");
+    let answer_a = solution_a(file);
+    let answer_b = solution_b(file);
     println!("Day 1 - answer a: {answer_a}");
     println!("Day 1 - answer b: {answer_b}");
 }
