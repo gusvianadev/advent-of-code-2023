@@ -6,7 +6,7 @@ pub fn solutions() {
     let answer_a = a::solution(file);
     let answer_b = b::solution(file);
 
-    println!("Day 6 - answer a: {answer_a}");
-    println!("Day 6 - answer b: {answer_b}");
+    println!("Day 7 - answer a: {answer_a}");
+    println!("Day 7 - answer b: {answer_b}");
 }
 

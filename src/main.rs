@@ -2,6 +2,6 @@
 mod days;
 
 fn main() {
-    days::day_6::solutions();
+    days::day_7::solutions();
 }
 
