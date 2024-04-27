@@ -1,0 +1,10 @@
+## Ejercicio (Most Frequent words)
+
+Write a function that takes a string and it returns the list of words
+that appear the most (there can be more than one) amount of times in
+the string.
+
+Example:
+
+- Input: "never gonna give you up, never gonna let you down"
+- Output: [never, gonna, you]
